@@ -1,0 +1,18 @@
+label {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+}
+
+input {
+  padding: 0 8px;
+  background-color: #f8efea;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 45px;
+  border-radius: 3px;
+  border: 2px solid #000;
+}

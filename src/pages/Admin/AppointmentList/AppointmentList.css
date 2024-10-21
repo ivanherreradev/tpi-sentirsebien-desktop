@@ -1,0 +1,27 @@
+.appointment-list .input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-list {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.appointment-list select {
+  padding: 0 8px; /* Igual que en el input */
+  background-color: #f8efea; /* Igual que en el input */
+  color: #000; /* Igual que en el input */
+  margin-top: 10px; /* Igual que en el input */
+  margin-bottom: 20px; /* Igual que en el input */
+  width: 250px; /* Igual que en el input */
+  height: 45px; /* Igual que en el input */
+  border-radius: 3px; /* Igual que en el input */
+  border: 2px solid #000; /* Igual que en el input */
+  appearance: none; /* Elimina el estilo predeterminado del navegador */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="black" d="M7 10l5 5 5-5z"/></svg>'); /* Agrega una flecha personalizada */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  background-position: right 10px center; /* Coloca la flecha a la derecha */
+  background-size: 12px; /* Tamaño de la flecha */
+}

@@ -1,0 +1,13 @@
+
+.detail {
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #e9f5f2; /* Same background color as appointment items */
+  border: 1px solid #aed9c6; /* Same border style as appointment items */
+  margin-bottom: 20px; /* Space between report and other elements */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}

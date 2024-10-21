@@ -1,0 +1,17 @@
+.login {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form a {
+  color: #c61c56;
+  font-weight: 00;
+}

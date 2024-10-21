@@ -1,0 +1,70 @@
+.layout {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.toggle-menu {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+
+.sidemenu {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.sidemenu li {
+  margin: 15px 0;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.sidemenu li a {
+  color: black;
+  width: 100%;
+  display: block;
+  font-weight: 600;
+  padding: 8px 18px;
+}
+
+aside {
+  background-color: #222;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  width: 20%; /* El ancho estándar es 20% */
+  max-width: 400px;
+  min-width: 0;
+}
+
+aside.closed {
+  width: 0; /* Ocultar el menú lateral */
+}
+
+main {
+  display: flex;               /* Usar flexbox */
+  justify-content: center;      /* Centrar horizontalmente */
+  transition: width 0.3s ease;
+  width: 80%; /* El ancho estándar es 80% */
+  min-height: 100vh;            /* Asegura que el main ocupe toda la altura */
+}
+
+main.full-width {
+  width: 100%; /* Cuando el menú lateral está cerrado */
+}
+
+.logOff {
+  margin-left: 20px;
+}
+
+.sidemenu-link {
+  color: black;
+}

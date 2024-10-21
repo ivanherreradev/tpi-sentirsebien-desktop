@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#root {
+  background-color: #f8efea;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p,
+a,
+li,
+button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+a,
+button {
+  border: none;
+  cursor: pointer;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 0 8px;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+select,
+input {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.btn-success {
+  background-color: #6f9d39;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 3px;
+  border: 1px solid #6f9d39;
+}
+
+.btn-danger {
+  background-color: #c11717;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 3px;
+  border: 1px solid #c11717;
+}
+
+.btn-info {
+  background-color: #2196F3;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 3px;
+  border: 1px solid #2196F3;
+}
+
+.btn-info:hover {
+  background-color: #2087db;
+}
+
+.btn-warning {
+  background-color: #FFA500;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 3px;
+  border: 1px solid #FFA500;
+}
+
+.btn-warning:hover {
+  background-color: #d88c00;
+}
+
+.btn-link {
+  border: 1px solid #C61C56;
+  color: #C61C56;
+  padding: 8px 18px;
+  border-radius: 3px;
+}
+
+.btn-link:hover {
+  transition: 0.2s ease-in-out;
+  background-color: #C61C56;
+  color: #FFF;
+}
+
+.btn-success:hover {
+  transition: 0.2s ease-in-out;
+  background-color: #659133;
+}
+
+.btn-danger:hover {
+  transition: 0.2s ease-in-out;
+  background-color: #9d0208;
+}
+
+.table {
+  width: 800px;
+  border-collapse: collapse;
+}
+
+.table p {
+  font-size: 14px;
+}
+
+.table button {
+  font-size: 14px;
+  padding: 6px 14px;
+}
+
+.table th, .table td{
+  border: 1px solid black;
+  padding: 12px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.container {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.container h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+select {
+  padding: 0 8px; /* Igual que en el input */
+  background-color: #f8efea; /* Igual que en el input */
+  color: #000; /* Igual que en el input */
+  margin-top: 10px; /* Igual que en el input */
+  margin-bottom: 20px; /* Igual que en el input */
+  width: 250px; /* Igual que en el input */
+  height: 45px; /* Igual que en el input */
+  border-radius: 3px; /* Igual que en el input */
+  border: 2px solid #000; /* Igual que en el input */
+  appearance: none; /* Elimina el estilo predeterminado del navegador */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="black" d="M7 10l5 5 5-5z"/></svg>'); /* Agrega una flecha personalizada */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  background-position: right 10px center; /* Coloca la flecha a la derecha */
+  background-size: 12px; /* Tamaño de la flecha */
+}

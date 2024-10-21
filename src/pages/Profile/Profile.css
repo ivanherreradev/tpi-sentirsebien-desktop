@@ -1,0 +1,10 @@
+.profile form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile form a {
+  margin-left: 20px;
+  color: #c61c56;
+}

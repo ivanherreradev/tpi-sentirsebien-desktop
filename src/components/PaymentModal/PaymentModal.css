@@ -1,0 +1,84 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.3s ease;
+}
+
+.overlay h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.overlay label {
+  display: flex; /* Cambiado a flex */
+  align-items: center; /* Alinea verticalmente */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.overlay input[type="radio"],
+.overlay input[type="checkbox"] {
+  width: 16px; /* Tamaño ajustado */
+  height: 16px; /* Tamaño ajustado */
+  margin-right: 8px; /* Margen a la derecha */
+  vertical-align: middle; /* Alineación vertical */
+}
+
+.overlay input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.overlay button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.overlay .btn-success {
+  background-color: #28a745;
+  margin-right: 4%;
+}
+
+.overlay .btn-danger {
+  background-color: #dc3545;
+}
+
+.overlay button:hover {
+  opacity: 0.9;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
